@@ -18,7 +18,6 @@ html {
 
 body {
     font-size: 1.6rem;
-    height: 10000px;
 }
 
 /* common */
@@ -531,6 +530,236 @@ a {
     margin-top: 11px;
     color: #767e7e;
     text-align: center;
+    font-size: 1.8rem;
+    font-weight: 400;
+    line-height: normal;
+}
+
+/* feedback */
+
+.feedback {
+    margin-top: 264px;
+}
+
+.feedback .content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.feedback .left {
+    width: 36%;
+}
+
+.feedback .left .comment {
+    margin-top: 27px;
+    color: #5d6564;
+    font-size: 3.2rem;
+    font-weight: 400;
+    line-height: 1.5; /* 150% */
+}
+
+.feedback .left .customer {
+    position: relative;
+    margin-top: 33px;
+    color: #767e7e;
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: normal;
+    margin-left: 15px;
+}
+
+.feedback .left .customer::after {
+    content: "";
+    position: absolute;
+    left: -13px;
+    top: 11px;
+    display: inline-block;
+    width: 8px;
+    height: 2px;
+    flex-shrink: 0;
+    background: #070707;
+}
+
+.feedback .left .customer strong {
+    color: #070707;
+    font-size: 1.6rem;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.feedback .cta {
+    display: flex;
+    gap: 30px;
+}
+
+.feedback .cta .arrow {
+    margin-top: 52px;
+    background: var(--primary-color);
+    border-radius: 999px;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+}
+
+.feedback .right {
+    flex: 1;
+}
+
+.feedback .right .block-avatar {
+    position: relative;
+    height: 481px;
+}
+
+.feedback .right .avatar {
+    border-radius: 999px;
+}
+
+.feedback-avatar-1 {
+    width: 235px;
+    height: 235px;
+    flex-shrink: 0;
+    position: absolute;
+    top: 93px;
+    left: 288px;
+    background: url(<path-to-image>) rgb(235, 96, 96) 50% / cover no-repeat;
+}
+
+.feedback-avatar-2 {
+    width: 110px;
+    height: 110px;
+    flex-shrink: 0;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    background: rgb(230, 92, 230);
+}
+
+.feedback-avatar-3 {
+    width: 92px;
+    height: 92px;
+    flex-shrink: 0;
+    position: absolute;
+    top: 28px;
+    left: 20%;
+    background: var(--primary-color);
+}
+
+.feedback-avatar-4 {
+    width: 78px;
+    height: 78px;
+    flex-shrink: 0;
+    position: absolute;
+    top: 300px;
+    left: 0;
+    background: url(<path-to-image>) rgb(191, 194, 15) 50% / cover no-repeat;
+}
+
+.feedback-avatar-5 {
+    width: 78px;
+    height: 78px;
+    flex-shrink: 0;
+    position: absolute;
+    bottom: 0;
+    left: 260px;
+    background: url(<path-to-image>) rgb(212, 118, 10) 50% / cover no-repeat;
+}
+
+.feedback-avatar-6 {
+    width: 78px;
+    height: 78px;
+    flex-shrink: 0;
+    position: absolute;
+    bottom: 100px;
+    right: 0;
+    background: url(<path-to-image>) rgb(169, 245, 240) 50% / cover no-repeat;
+}
+
+/* link cta */
+
+.link-cta {
+    margin-top: 130px;
+    padding: 76px 0 88px 0;
+    background: #def6f5;
+}
+
+.link-cta .row {
+    display: flex;
+    gap: 410px;
+    align-items: center;
+}
+
+.link-cta .content .title {
+    color: #070707;
+    font-size: 4.2rem;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.link-cta .content .desc {
+    margin-top: 18px;
+    color: #767e7e;
+    font-size: 1.8rem;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.link-cta .btn-link-cta {
+    background: var(--primary-color);
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: normal;
+    padding: 21px 41px;
+    border-radius: 14px;
+}
+
+/*  footer */
+
+.footer {
+    margin-top: 130px;
+}
+
+.footer .row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer ul {
+    color: #2e2e2e;
+    font-size: 1.8rem;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.footer ul li {
+    display: flex;
+    gap: 9px;
+    align-items: center;
+}
+
+.footer ul li a {
+    color: #535353;
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.footer ul li + li {
+    margin-top: 20px;
+}
+
+footer ul li:first-of-type {
+    margin-top: 24px;
+}
+
+.copyright {
+    display: flex;
+    margin-top: 80px;
+    margin-bottom: 50px;
+    justify-content: center;
+    color: #b0b5b4;
     font-size: 1.8rem;
     font-weight: 400;
     line-height: normal;
